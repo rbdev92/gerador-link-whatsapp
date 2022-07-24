@@ -1,0 +1,12 @@
+.main-title {
+  color: var(--green);
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 2px 2px 0 var(--black-first);
+  margin-bottom: 15px;
+}
+
+.main-title.-label {
+  font-size: 1.5em;
+  text-shadow: 1.5px 1.5px 0 var(--black-first);
+}

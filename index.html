@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
+    <title>Gerador de Links WhatsApp e Instagram</title>
+  </head>
+  <body>
+    <section class="container">
+      
+      <form>
+        <h1 class="main-title">WhatsApp</h1>
+        <label class="main-title -label" for="number">Número</label>
+        <input class="main-input" type="text" id="number" />
+
+        <label class="main-title -label" for="message">Mensagem</label>
+        <textarea class="main-input -textarea" id="message"></textarea>
+        <p id="end_url"></p>
+        <button class="main-button -btnsubmit" type="button" onclick="generateLink()">Gerar Link</button>
+      </form>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
