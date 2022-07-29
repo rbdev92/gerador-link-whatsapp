@@ -4,30 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/components/main-button.css">
-    <link rel="stylesheet" href="css/components/main-input.css">
-    <link rel="stylesheet" href="css/components/main-label.css">
-    <link rel="stylesheet" href="css/components/main-title.css">
-    <title>Gerador de Links WhatsApp e Instagram</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/components/main_form.css" />
+    <link rel="stylesheet" href="css/components/main_button.css" />
+    <link rel="stylesheet" href="css/components/main_input.css" />
+    <link rel="stylesheet" href="css/components/main_title.css" />
+    <title>Gerador de Link para WhatsApp</title>
   </head>
   <body>
-    <section class="container">
+    <form class="main_form" name="main_form">
+      <h1 class="main_title">Gerador de Link para WhatsApp</h1>
+      <label class="main_title _label" for="name">Username Instagram</label>
+      <input
+        type="text"
+        class="main_input"
+        placeholder="@username"
+        id="username"
+        required
+      />
+
+      <label class="main_title _label" for="number">Número de Celular</label>
+      <input
+        type="text"
+        class="main_input"
+        placeholder="(DDD) 9 9999_9999"
+        id="phoneNumber"
+        type="text"
+        required
+      />
+
+      <label class="main_title _label" for="message">Mensagem</label>
+      <textarea
+        class="main_input _textarea"
+        placeholder="Deixe uma mensagem! :)"
+        id="message"
+      ></textarea>
       
-      <form class="main-form">
-        <h1 class="main-title">WhatsApp</h1>
-        <label class="main-title -label" for="number">Número</label>
-        <input class="main-input" type="text" id="number" />
-
-        <label class="main-title -label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" id="message"></textarea>
-        <p id="end_url"></p>
-        <button class="main-button -btnsubmit" type="button" onclick="generateLink()">Gerar Link</button>
-      </form>
-    </section>
-
-    <script src="index.js"></script>
+      <div id="action" class="main_button">Gerar Link</div>
+      <p>
+        <a
+          href=""
+          id="link_gerado"
+          class="_link_generate"
+          >O LINK VAI APARECER AQUI!</a
+        >
+      </p>
+    </form>
+    <script src="assets/script/index.js"></script>
   </body>
 </html>

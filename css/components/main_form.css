@@ -1,0 +1,12 @@
+body {
+  background-color: var(--white);
+}
+
+.main_form {
+  background-color: var(--green_second);
+  box-shadow: 2px 2px 5px var(--black);
+  width: 500px;
+  margin: 50px 0 0 50px;
+  padding: 1.5em;
+  border-radius: 5px;
+}

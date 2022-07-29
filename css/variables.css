@@ -1,11 +1,6 @@
 :root {
   --green: #9f9;
-  --green-linear: linear-gradient(#46ffc1, #19fd24);
-  --green-linear-second: linear-gradient(#00fff2,#73ff8a);
-
-  --black-first: #000;
-  --black-second: #0000004d;
-  
-  --blue: #99f;
-  --white: #fff;
+  --green_second: #67f36e;
+  --black: #000;
+  --white: #cef0d8;
 }

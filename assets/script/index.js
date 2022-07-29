@@ -1,7 +1,12 @@
-function generateLink() {
-  let number = document.form_main.number.value;
-  let message = document.form_main.message.value;
-  let url = "https://wa.me/";
-  let end_url = `${url}${number}?text=${message}`;
-  document.getElementById('end_url').innerText = end_url;
+const action = document.getElementById('action')
+const link_gerado = document.getElementById('link_gerado')
+const username = document.getElementById('username')
+const phoneNumber = document.getElementById('phoneNumber')
+const message = document.getElementById('message')
+const url = 'https://wa.me/'
+
+action.addEventListener('click', changeText)
+
+function changeText() {
+  link_gerado.textContent = `Username: @${username.value}  ${url}${phoneNumber.value}?text=${message.value}`
 }

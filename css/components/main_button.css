@@ -1,0 +1,28 @@
+.main_button {
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  font-size: 1em;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid;
+  transition: 300ms ease-in-out;
+  text-transform: uppercase;
+  text-align: center;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.main_button:hover {
+  transform: scale(1.05);
+  background-color: var(--green);
+}
+
+._link_generate {
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--black);
+}
