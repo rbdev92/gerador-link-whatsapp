@@ -1,6 +1,6 @@
 :root {
   --green: #9f9;
-  --green_second: #67f36e;
+  --green_second: linear-gradient(#70ff78, #85cef8);
   --black: #000;
   --white: #cef0d8;
 }

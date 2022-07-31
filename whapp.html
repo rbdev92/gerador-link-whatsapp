@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/components/main_box.css" />
     <link rel="stylesheet" href="css/components/main_form.css" />
     <link rel="stylesheet" href="css/components/main_button.css" />
     <link rel="stylesheet" href="css/components/main_input.css" />
@@ -15,14 +16,14 @@
   <body>
     <form class="main_form" name="main_form">
       <h1 class="main_title">Gerador de Link para WhatsApp</h1>
-      <label class="main_title _label" for="name">Username Instagram</label>
+      <!-- <label class="main_title _label" for="name">Username Instagram</label>
       <input
         type="text"
         class="main_input"
         placeholder="@username"
         id="username"
         required
-      />
+      /> -->
 
       <label class="main_title _label" for="number">Número de Celular</label>
       <input
@@ -40,13 +41,10 @@
         placeholder="Deixe uma mensagem! :)"
         id="message"
       ></textarea>
-      
+
       <div id="action" class="main_button">Gerar Link</div>
       <p>
-        <a
-          href=""
-          id="link_gerado"
-          class="_link_generate"
+        <a href="" id="link_gerado" class="_link_generate"
           >O LINK VAI APARECER AQUI!</a
         >
       </p>
